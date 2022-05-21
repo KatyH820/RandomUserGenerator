@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js" defer></script>  
+
+</head>
+<body>
+    <button id="generate">Generate User</button> 
+    <div class="box">
+        <h1>Random User</h1>
+        <ul class="list">
+            <div class="column">
+                <li><label>Login:</label>
+                    <ul>
+                        <li><label2>Username:</label2> <span id="username"></span></li>
+                        <li><label2>Password:</label2> <span id="password"></span></li>
+                    </ul>
+                </li>
+                <li><label>Email:</label> <span id="email"></span></li>
+                <li><label>Name:</label>
+                    <ul>
+                        <li><label2>First Name:</label2> <span id="first"></span></li>
+                        <li><label2>Last Name:</label2><span id="last"></span></li>
+                    </ul>
+                </li>
+                <li><label>Gender:</label> <span id="gender"></span></li>
+                <li><label>Phone number:</label> <span id="phone"></span></li>
+                <li><label>Date Of Birth:</label>
+                    <ul>
+                        <li><label2>Age:</label2> <span id="age"></span></li>
+                        <li><label2>Date:</label2> <span id="date"></span></li>
+                    </ul>
+                </li> 
+            </div>
+            <div class="column">
+                <li><label>Location:</label> 
+                    <ul>
+                        <li><label2>Country:</label2> <span id="country"></span></li>
+                        <li><label2>State:</label2> <span id="state"></span></li>
+                        <li><label2>City:</label2><span id="city"></span></li>
+                        <li><label2>Street: </label2>
+                            <ul>
+                                <li><label2>Name:</label2> <span id="name"></span></li>
+                                <li><label2>Number:</label2> <span id="number"></span></li>
+                            </ul>
+                        </li>
+                        <li><label2>Postcode: </label2><span id="postcode"></span></li>
+                        <li><label2>Coordinates:</label2> 
+                            <ul>
+                                <li><label2>Latitude: </label2><span id="latitude"></span></li>
+                                <li><label2>Longitude:</label2> <span id="longitude"></span></li>
+                            </ul>
+                        </li>
+                        <li><label2>Timezone:</label2> 
+                            <ul>
+                                <li><label2>Description:</label2> <span id="description"></span></li>
+                                <li><label2>Offset: </label2><span id="offset"></span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li> 
+            </div>
+        </ul>
+    </div>
+</body>
+</html>
